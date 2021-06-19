@@ -1,0 +1,10 @@
+.login {
+  display: flex;
+  justify-content: space-around;
+  .section-login,
+  .section-signup {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
