@@ -9,6 +9,12 @@ import { AppRoutingModule } from './app-routing.module';
 import {LoginSignupServiceApi} from "./services/login-service/login-service.api";
 import {HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './components/home/home.component';
+import { RecentPostComponent } from './components/shared/recent-post/recent-post.component';
+import { PaginationComponent } from './components/shared/pagination/pagination.component';
+import { QuestionsComponent } from './components/shared/questions/questions.component';
+import { NewFilterComponent } from './components/shared/new-filter/new-filter.component';
+import { CreatePostComponent } from './components/create-post/create-post.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { HomeComponent } from './components/home/home.component';
     NavbarComponent,
     FooterComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    RecentPostComponent,
+    PaginationComponent,
+    QuestionsComponent,
+    NewFilterComponent,
+    CreatePostComponent,
+    AboutUsComponent
   ],
   imports: [
     HttpClientModule,
