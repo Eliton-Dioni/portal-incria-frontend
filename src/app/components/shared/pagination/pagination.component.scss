@@ -1,0 +1,17 @@
+.pagination {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  .pages {
+    color: #262626;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px;
+  }
+  .pages:hover {
+    background-color: gray;
+    color: white;    
+  }
+}

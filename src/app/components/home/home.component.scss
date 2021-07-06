@@ -1,0 +1,17 @@
+section {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-section {
+  margin-top: 100px;
+}

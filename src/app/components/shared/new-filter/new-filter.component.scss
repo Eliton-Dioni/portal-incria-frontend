@@ -1,0 +1,20 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  .search {
+    padding: 10px;
+  }
+  .categories {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    .category {
+      color: #262626;
+      text-decoration: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .category:hover {
+      border-bottom: 1px solid gray;
+    }
+  }
+}

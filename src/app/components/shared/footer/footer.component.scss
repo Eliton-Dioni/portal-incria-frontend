@@ -2,5 +2,39 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px solid blue;
+  border-top: 1px solid black;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+
+  ul {
+    list-style-type: none;
+  }
+  
+  .social-media svg {
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .email {
+    display: flex;
+    align-items: center;
+  }
+
+  .email span,
+  .address span {
+    margin-left: 5px;
+  }
+
+  .address {
+    display: flex;
+    align-items: center;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    input {
+      padding: 10px;
+    }
+  }
 }
