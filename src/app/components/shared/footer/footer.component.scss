@@ -2,9 +2,15 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-top: 1px solid black;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: #38b6ff;
+  height: 120px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
   ul {
     list-style-type: none;
@@ -13,6 +19,8 @@ footer {
   .social-media svg {
     cursor: pointer;
     margin: 5px;
+    background-color: white;
+    border-radius: 5px;
   }
 
   .email {
@@ -23,6 +31,7 @@ footer {
   .email span,
   .address span {
     margin-left: 5px;
+    color: white;
   }
 
   .address {
@@ -35,6 +44,11 @@ footer {
     flex-direction: column;
     input {
       padding: 10px;
+      border-radius: 8px;
+      border: 1px solid transparent;
+    }
+    h2 {
+      color: white;
     }
   }
 }

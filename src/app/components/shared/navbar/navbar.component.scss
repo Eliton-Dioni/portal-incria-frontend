@@ -2,8 +2,19 @@
   font-family: 'Roboto', sans-serif;
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid;
+  justify-content: space-around;
+  background-color: #38b6ff;
+  .logo-main {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-left: 30px;
+      max-width: 100%;
+      width: 50px;
+      height: 50px;
+    }
+  }
   h1 {
     font-weight: bold;
     font-size: 28px;
@@ -11,23 +22,26 @@
     cursor: pointer;
     a {
       text-decoration: none;
-      color: black
+      color: white
+    }
+    span {
+      color: #ff5757;
     }
   };
   ul {
     list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    display: flex;
+    grid-gap: 15px;
     font-size: 20px;
     li a {
       text-transform: uppercase;
-      color: black;
+      color: white;
       text-decoration: none;
     }
     li a:hover {
       text-decoration: none;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid #ff5757;
+      color: #ff5757;
     }
   }
 }

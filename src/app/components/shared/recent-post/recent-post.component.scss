@@ -26,18 +26,22 @@
       color: black;
     }
     a:hover {
-      color: #a83131;
+      color: #ff5757;
     }
   }
   button {
     margin-top: 20px;
     width: 100px;
     padding: 5px;
-    background-color: #a83131;
-    border: 1px solid #a83131;
+    background-color: #ff5757;
+    border: 1px solid #ff5757;
     border-radius: 8px;
     color: white;
     cursor: pointer;
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
   .btn {
     display: flex;

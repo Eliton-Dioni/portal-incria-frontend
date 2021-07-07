@@ -1,20 +1,22 @@
 <app-navbar></app-navbar>
 
-<div class="about-site"></div>
-<div class="banner"></div>
-<section>
-  <div class="main-section">
-    <app-pagination></app-pagination>
-    <app-recent-post></app-recent-post>
-    <app-recent-post></app-recent-post>
-    <app-recent-post></app-recent-post>
-    <app-recent-post></app-recent-post>
-    <app-recent-post></app-recent-post>
-    <app-pagination></app-pagination>
+<div id="wrapper">
+  <div class="container body-content">
+    <section>
+      <div class="main-section">
+        <img src="../../../assets/banner.png" alt="Banner">
+        <app-pagination></app-pagination>
+        <app-recent-post></app-recent-post>
+        <app-recent-post></app-recent-post>
+        <app-recent-post></app-recent-post>
+        <app-recent-post></app-recent-post>
+        <app-pagination></app-pagination>
+      </div>
+      <div class="side-section">
+        <app-new-filter></app-new-filter>
+      </div>
+    </section>
   </div>
-  <div class="side-section">
-    <app-new-filter></app-new-filter>
-  </div>
-</section>
-
-<app-footer></app-footer>
+  
+  <app-footer></app-footer>
+</div>
